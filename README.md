@@ -56,14 +56,7 @@ project/
 └── API.md     # Full API details
 ```
 
----
 
-## 🔐 Admin Credentials (Hardcoded for Demo)
-
-```
-Email: gs7august@gmail.com
-Password: 8052566305
-```
 
 ---
 
@@ -116,6 +109,7 @@ python app.py
 ## 👨‍💻 Author
 
 **Gaurav Singh** – built with ❤️ and Flask.
+
 
 
 
