@@ -73,8 +73,8 @@ Request Body (form-urlencoded):
 
 | Field      | Type   | Required | Value                 |
 | ---------- | ------ | -------- | --------------------- |
-| `email`    | string | ✅        | `gs7august@gmail.com` |
-| `password` | string | ✅        | `8052566305`          |
+| `email`    | string | ✅        | `abcd@gmail.com` |
+| `password` | string | ✅        | `*********`          |
 
 
 Response: Redirects to /admin-dashboard on success. Shows alert on failure (handled via JS).
@@ -127,7 +127,7 @@ Feedback
 
 - TLS: Enabled
 
-- Email: gs7august2005@gmail.com
+- Email: abcd@gmail.com
 
 - Password: App Password (**** **** **** ****)
 
@@ -140,9 +140,9 @@ Emails are sent during:
 ## 🛡 Authentication
 - Admin credentials are hardcoded (for demo purposes):
 
-  - Email: gs7august@gmail.com
+  - Email: abcd@gmail.com
 
-  - Password: 8052566305
+  - Password: *********
 
 - No session or token-based authentication used.
 
