@@ -33,6 +33,7 @@ A user-friendly web application built with **Flask**, **HTML/CSS**, and **SQLite
 project/
 ├── app.py                  # Main Flask app
 ├── static/
+|   |__ logo.png
 │   └── style.css           # Custom styles
 ├── templates/
 │   ├── admin-login.png
@@ -73,14 +74,6 @@ Password: 8052566305
   - A user submits feedback (confirmation)
   - Admin updates feedback status (notification)
 
-Credentials used in `app.py`:
-
-```python
-EMAIL_ADDRESS = "gs7august2005@gmail.com"
-EMAIL_PASSWORD = "**** **** **** ****"
-```
-
----
 
 ## 🧪 Running the App Locally
 
@@ -116,52 +109,6 @@ python app.py
 
 - [✅ API Documentation (Markdown)](./API.md)
 
-## 📸 Screenshots
-
-### 🏠 Homepage – Feedback Form
-
-Shows the user-facing form where feedback is submitted.
-
-
-![Homepage](screenshots/homepage.png)
-
-### ✅ Thank You Page
-Confirmation screen shown after successful feedback submission.
-
-![Thank You](screenshots/thank-you.png)
-
-###  Email Message
-Email sent after submitting the feedback
-
-![Email](screenshots/email.png)
-
-### 🛂 Admin Login Page
-Secure login page for administrators only.
-
-![Admin Login](screenshots/admin-login.png)
-
-### 📊 Admin Dashboard
-View all submitted feedback and update their statuses.
-
-![Admin Dashboard](screenshots/dashboard.png)
-
-when we mark as resolved an email is sent again to remind that their feedback is resolved.
-
-![Email](screenshots/resolved.png)
-
-### 🔍 Check Feedback Status Page
-Lets users track the status of their feedback using their name and email.
-
-
-![Check Status](screenshots/check-status.png)
-
-After login with the submitted name and email.
-
-![feedback Status](screenshots/feedback-status.png)
-
-After mark as resolved in admin dashboard, feedback status is also updated as "Resolved"
-
-![feedback Status](screenshots/feedback-status-resolved.png)
 
 
 ---
@@ -169,5 +116,6 @@ After mark as resolved in admin dashboard, feedback status is also updated as "R
 ## 👨‍💻 Author
 
 **Gaurav Singh** – built with ❤️ and Flask.
+
 
 
